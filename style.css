@@ -1,0 +1,175 @@
+.cajaLogTit {
+    background-color: #f3f5fc;
+}
+.loguito{
+    margin: 1% 50px 5% 5%;
+    position: relative;
+    left: 15%;
+    float: left;
+    padding: 2px;
+
+}
+.titulo {
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    font-size: 2.5em;
+    font-weight: bold; 
+    color: #0A3871; 
+    text-transform: uppercase; 
+    
+}
+
+body {
+        font-family: 'Lexend Deca', sans-serif;
+        background-color: #f3f5fc;
+ }
+    
+
+main {
+    margin: auto;
+    width: 940px;
+    height: 650px;
+    padding: 5px;
+}
+
+.textoAIngresar {
+    width: 70%;
+    height: 400px;
+    padding: 10px;
+    float: left;
+    border-radius: 24px;
+    margin: auto;
+}
+
+.campo-texto {
+    float: left;
+    resize: none;
+    margin: 10%;
+    width: 70%;
+    height: 300px;
+    color: #0a3871;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background: #f3f5fc;
+    text-transform: lowercase;
+    
+
+}
+.alerta{
+    display: inline;
+    margin-left:70px;
+}
+.informacion p{
+    display: inline-block;
+    color: #0A3871;
+    text-align: center;
+    margin:  0 2% 10%;
+    
+}
+
+    
+.btnEncriptar{
+    padding: 24px;
+    width: 30%;
+    height: 60%;
+    border-radius: 24px;
+    margin-left: 10%;
+    background: #0A3871;
+    color: #f3f5fc;
+    cursor: pointer;
+}
+.btnDesencriptar{
+    padding: 24px;
+    width: 30%;
+    height: 60%;
+    border-radius: 24px;
+    margin-left: 10%;
+    background: #d8dfe8;
+    color: #0A3871;
+    cursor: pointer;
+}
+
+.mensajeNigun{
+    text-align: center;
+    font-size: 2em;
+}
+.btnCopiar{
+    padding: 24px;
+    width: 50%;
+    height: 10%;
+    border-radius: 24px;
+    margin: 10% 10% 10% 25%;
+    background: #d8dfe8;
+    color: #0A3871;
+    display: none;
+    cursor: pointer;
+}
+.textoResultante {
+    display: inline-block;
+    resize: none;
+    background-color: rgb(22, 178, 250);
+    width: 27%;
+    height: 88%;
+    padding: 2px;
+    border-radius: 24px;
+    box-sizing: content-box;
+    border: 2px solid #0A3871;
+}
+.mensaje {
+    width: 70%;
+    height: 30%;
+    padding: 10px;
+    border-radius: 24px;
+    color: #0A3871;
+    margin:  10px 10px 10px 30px;
+}
+.imagenMuneco {
+    width: 90%;
+    
+
+}
+
+footer {
+        display: inline;
+        text-align: center;
+        width: 100%;
+        padding: 5% 5% 5% 20%;
+        margin: 50% 50px 50px 50px;
+        height: 15%;
+        background: rgb(22, 178, 250);
+        box-sizing: content-box;
+        border-radius: 25px;
+}
+.imgGithub {
+    width: 40px;
+    height: 40px;
+    padding: 0 0% 0 2%;
+    position: relative;
+    top: 0%;
+
+}
+.imgLink{
+    width: 40px;
+    height: 40px;
+}
+.autor{
+    padding-top: 2%;
+    height: 50%;
+    color: #d8dfe8;
+    position: relative;
+    font-size: 16px;
+    font-size: 2em;
+t
+}
+@media screen and (max-width: 480px)
+
+
+body {
+    display: inline-block;
+}
+
+
+
+

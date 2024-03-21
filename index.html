@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@700&display=swap">
+
+    <title>Encriptador de Texto</title>
+    
+</head>
+
+<body>
+    <header>
+<div class="cajaLogTit">
+            <img class="loguito" src="Imagenes/Logo.svg" alt="Loguito">
+        <H1 class="titulo" >Encriptador De Texto</H1>
+        <div></div>
+    </header>
+    
+    <main class="main">
+        <section class="textoAIngresar">
+           
+            <textarea  id="texto-encriptado" class="campo-texto" placeholder="Ingrese el texto aquí"></textarea>
+            <div class="informacion">
+                <img class="alerta" src="Imagenes/alerta.svg" alt="alerta">
+            <p>Solo letras minusculas y sin acentos</p>
+            </div>
+            <div class="btn">
+                <button class="btnEncriptar" onclick="btnEncriptar ()">Encriptar</button>
+                <button class="btnDesencriptar" onclick="btnDesencriptar ()">Desencriptar</button>
+            </div>
+
+        </section>
+
+        <section class="textoResultante">
+
+            <textarea id="campo-mensaje" class="mensaje" placeholder="Aquí aparecerá el texto Encriptado/Desencriptado"></textarea>
+            
+            <div class="imagenMuneco" id="imagenMunecos"  >
+                <img class="imagenMuneco" src="Imagenes/Muñeco.svg" alt="Candado">
+            </div>
+
+            <div class="mensajeNigun">
+                <h3 id="mensajeNiguno">Ningún mensaje fue <br>encontrado</h3>
+                <p></p>
+            </div>
+
+            <div>
+             <button id="btncopiar" class="btnCopiar" onclick="btnCopiar ()">¡Copiar!</button>
+            </div>
+        </section>
+
+        <footer>
+            <H3 class="autor">Ariel Lopez</H3>
+            <a  href="https://github.com/Arilopz"> <img class="imgGithub" src="Imagenes/githup.jpeg" alt="GitHub"></a>
+            <a  href="https://www.linkedin.com/in/ariel-lopez-butr%C3%B3n/"><img class="imgLink" src="Imagenes/Linkedin.png" alt="github"></a>
+            
+
+        </footer>
+    </main>
+
+
+<script src="script.js"></script>
+</body>
+</html>
+
+
